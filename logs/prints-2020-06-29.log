@@ -1,0 +1,6 @@
+13:06:58:839 [TestNG-tests-3] INFO  vin.ValidateLandingContact - launched URL inside validateContact
+13:06:00:395 [TestNG-tests-3] INFO  vin.ValidateLandingContact - verified contact
+13:06:17:042 [TestNG-tests-2] INFO  vin.Launch - provided username and password
+16:06:54:232 [TestNG-tests-3] INFO  vin.ValidateLandingContact - launched URL inside validateContact
+16:06:54:872 [TestNG-tests-3] INFO  vin.ValidateLandingContact - verified contact
+16:06:20:578 [TestNG-tests-2] INFO  vin.Launch - provided username and password

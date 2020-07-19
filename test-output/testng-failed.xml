@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="vin.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ValidateLandingPage - validate landing page(failed)" parallel="tests">
+    <classes>
+      <class name="vin.ValidateLandingPage">
+        <methods>
+          <include name="validate"/>
+          <include name="teardown"/>
+          <include name="validateBanner_LandingPage"/>
+          <include name="initializer"/>
+        </methods>
+      </class> <!-- vin.ValidateLandingPage -->
+    </classes>
+  </test> <!-- ValidateLandingPage - validate landing page(failed) -->
+  <test thread-count="5" name="Login(failed)" parallel="tests">
+    <classes>
+      <class name="vin.Login">
+        <methods>
+          <include name="logi"/>
+          <include name="forgotpwd"/>
+          <include name="initializer"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- vin.Login -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="ValidateLandingContact - validate Contact(failed)" parallel="tests">
+    <classes>
+      <class name="vin.ValidateLandingContact">
+        <methods>
+          <include name="teardown"/>
+          <include name="validateContact"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- vin.ValidateLandingContact -->
+    </classes>
+  </test> <!-- ValidateLandingContact - validate Contact(failed) -->
+  <test thread-count="5" name="Launch(failed)" parallel="tests">
+    <classes>
+      <class name="vin.Launch">
+        <methods>
+          <include name="initializer"/>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- vin.Launch -->
+    </classes>
+  </test> <!-- Launch(failed) -->
+</suite> <!-- Failed suite [Suite] -->

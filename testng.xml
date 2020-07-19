@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="vin.Listeners"/>
+</listeners>
+  <test name="AppTest">
+    <classes>
+      <class name="vin.AppTest"/>
+     </classes>
+  </test> <!-- Test -->
+  
+  <test name="Launch">
+    <classes>
+      <class name="vin.Launch"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="ValidateLandingContact - validate Contact">
+    <classes>
+      <class name="vin.ValidateLandingContact"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="ValidateLandingPage - validate landing page">
+    <classes>
+      <class name="vin.ValidateLandingPage"/>
+    </classes>
+  </test> <!-- Test -->
+
+   <test name="Login">
+    <classes>
+      <class name="vin.Login"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+  <test name="LandingPage">
+    <classes>
+      <class name="pageObject.LandingPage"/>
+     </classes>
+  </test> <!-- Test -->
+  
+  <test name="RegisterPage">
+    <classes>
+      <class name="pageObject.RegisterPage"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="LoginPage">
+    <classes>
+      <class name="pageObject.LoginPage"/>
+     </classes>
+  </test> <!-- Test -->
+  
+  <test name="ForgotPassword">
+    <classes>
+      <class name="pageObject.ForgotPassword"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

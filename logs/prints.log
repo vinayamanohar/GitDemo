@@ -1,0 +1,6 @@
+17:06:02:416 [TestNG-tests-3] INFO  vin.ValidateLandingContact - launched URL inside validateContact
+17:06:09:668 [TestNG-tests-3] INFO  vin.ValidateLandingContact - verified contact
+17:06:21:236 [TestNG-tests-3] INFO  vin.ValidateLandingContact - launched URL inside validateContact
+17:06:22:221 [TestNG-tests-3] INFO  vin.ValidateLandingContact - verified contact
+19:06:53:284 [TestNG-tests-3] INFO  vin.ValidateLandingContact - launched URL inside validateContact
+19:06:58:289 [TestNG-tests-3] INFO  vin.ValidateLandingContact - verified contact
