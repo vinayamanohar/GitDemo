@@ -11,6 +11,8 @@ public class ForgotPassword {
 	
 	public ForgotPassword(WebDriver driver) {
 		this.driver=driver;
+		System.out.println("Learning Github");
+		System.out.println("Learning Github2");
 	}
 	
 	public WebElement forgotpwd() {
