@@ -13,6 +13,9 @@ public class ForgotPassword {
 		this.driver=driver;
 		System.out.println("Learning Github");
 		System.out.println("Learning Github2");
+		System.out.println("Learning GitHub - Origin is GitX");
+		System.out.println("Learning GitHub2 - Origin is GitX");
+		
 	}
 	
 	public WebElement forgotpwd() {
@@ -20,3 +23,4 @@ public class ForgotPassword {
 	}
 
 }
+ 

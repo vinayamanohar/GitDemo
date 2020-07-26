@@ -22,6 +22,7 @@ public WebDriver driver;
 	public LandingPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
+		System.out.println("Learning GitHub2 - Origin is GitX");
 		
 	}
 
