@@ -18,6 +18,16 @@ public class ForgotPassword {
 		
 	}
 	
+	
+	public void ForgotPasswordgittest(WebDriver driver) {
+		this.driver=driver;
+		System.out.println("Branching test");
+		System.out.println("Braching test Github2");
+		System.out.println("Branching GitHub - Origin is GitX");
+		System.out.println("Branching GitHub2 - Origin is GitX");
+		
+	}
+	
 	public WebElement forgotpwd() {
 		return driver.findElement(forgot);
 	}

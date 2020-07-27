@@ -49,4 +49,11 @@ public WebDriver driver;
 	public WebElement validateBanner() {
 		return driver.findElement(banner);
 	}
+	
+	
+	public void testgitbranch() {
+		
+		System.out.println("Test git branching");
+	}
+	
 }
